@@ -266,6 +266,9 @@
 		845DCC871763006700894F9B /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 845DCC861763006700894F9B /* cpVect.c */; };
 		845DCC8E1763006800894F9B /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 845DCC8D1763006800894F9B /* AppDelegate.cpp */; };
 		845DCC911763006800894F9B /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 845DCC901763006800894F9B /* HelloWorldScene.cpp */; };
+		845DCC9A1763017200894F9B /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = 845DCC971763017200894F9B /* Player.png */; };
+		845DCC9B1763017200894F9B /* Projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 845DCC981763017200894F9B /* Projectile.png */; };
+		845DCC9C1763017200894F9B /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = 845DCC991763017200894F9B /* Target.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -832,6 +835,9 @@
 		845DCC8D1763006800894F9B /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		845DCC8F1763006800894F9B /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		845DCC901763006800894F9B /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		845DCC971763017200894F9B /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Player.png; path = Resources/Player.png; sourceTree = "<group>"; };
+		845DCC981763017200894F9B /* Projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Projectile.png; path = Resources/Projectile.png; sourceTree = "<group>"; };
+		845DCC991763017200894F9B /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Target.png; path = Resources/Target.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -902,6 +908,9 @@
 		845DC92A1763005B00894F9B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				845DCC971763017200894F9B /* Player.png */,
+				845DCC981763017200894F9B /* Projectile.png */,
+				845DCC991763017200894F9B /* Target.png */,
 				845DC92B1763005B00894F9B /* CloseNormal.png */,
 				845DC92D1763005B00894F9B /* CloseSelected.png */,
 				845DC92F1763005B00894F9B /* Default.png */,
@@ -2047,6 +2056,9 @@
 				845DC9401763005C00894F9B /* iTunesArtwork in Resources */,
 				845DC9DC1763005E00894F9B /* ChangeLog in Resources */,
 				845DCB461763006400894F9B /* project.pbxproj in Resources */,
+				845DCC9A1763017200894F9B /* Player.png in Resources */,
+				845DCC9B1763017200894F9B /* Projectile.png in Resources */,
+				845DCC9C1763017200894F9B /* Target.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
